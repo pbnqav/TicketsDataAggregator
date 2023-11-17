@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "92+TLp8YmRPWzqgg0OudJuGlEW0h9hHCKPhpNF4A1KNaMNsE5n9rK86ndS++j6yOE57uLvd6JbJ6bszu1j0VSw==",
+  "success": true,
+  "projectFilePath": "C:\\PROJS LEARNING C#\\TicketsDataAggregator\\TicketsDataAggregator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PBoanova\\.nuget\\packages\\pdfpig\\0.1.8\\pdfpig.0.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}
