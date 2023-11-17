@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TicketsDataAggregator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c38ac6e067c3cd914545ed70af211f3e1c0dd778")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d41ce571a65d176242c5a33ffef4b8c9cf694704")]
 [assembly: System.Reflection.AssemblyProductAttribute("TicketsDataAggregator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TicketsDataAggregator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
