@@ -7,7 +7,7 @@ namespace TicketsDataAggregator
     {
         static void Main(string[] args)
         {
-            const string TicketsFolder = @"c:\ourcinema\tickets";
+            const string TicketsFolder = @"c:\ourcinema\tickets\";
 
             try
             {
@@ -35,17 +35,17 @@ namespace TicketsDataAggregator
 
         public void Run()
         {
-            using (PdfDocument document = PdfDocument.Open(@"C:\my-file.pdf"))
+            foreach (var filePath in Directory.GetFiles(
+                _ticketsFolder, "*.pdf"))
             {
-                int pageCount = document.NumberOfPages;
-
+                using PdfDocument document = PdfDocument.Open(filePath);
                 // Page number starts from 1, not 0.
                 Page page = document.GetPage(1);
-
-                decimal widthInPoints = page.Width;
-                decimal heightInPoints = page.Height;
-
+                // aceder ao texto do pdf
                 string text = page.Text;
+
+                var split = text.Split(
+                    new[] { "Title:", "Date:", "Time:", "Visit us:"}, StringSplitOptions.None);
             }
         }
     }
